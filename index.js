@@ -12,7 +12,7 @@ app.post('/', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-    res/send('About Us');
+    res.send('About Us');
 })
 
 // Listen to the server
